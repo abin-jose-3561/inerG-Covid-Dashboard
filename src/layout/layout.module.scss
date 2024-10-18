@@ -1,0 +1,28 @@
+.layoutMain {
+  height: 100%;
+  width: 100%;
+
+  .layoutContainer {
+    display: flex;
+
+    .contentMain {
+      background-color: var(--bg-primary);
+      flex-grow: 1;
+      padding: 0.5rem 1rem 1rem 1rem;
+
+      .topbarMain {
+        background-color: var(--bg-primary);
+        height: 6rem;
+      }
+
+      .contentSection {
+        background-color: var(--bg-secondary);
+        height: calc(100vh - 10rem);
+        overflow-y: auto;
+        border-radius: 10px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
