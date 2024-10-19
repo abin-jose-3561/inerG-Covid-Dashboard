@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../../shared/store/store";
 import { Regional } from "../../shared/models/covid-patient-models";
@@ -18,7 +18,10 @@ const StatwiseAnalysis = () => {
 
   return (
     <div className="w-full">
-      <div className="card flex justify-content-between align-items-center pl-5 pb-2">
+      <div className="card flex gap-5 align-items-center pl-5 pb-2">
+        <p className="text-lg font-semibold">
+          StateWise Covid 19 Case Analysis
+        </p>
         <Dropdown
           value={selectedState}
           onChange={(e) => setSelectedCity(e.value)}

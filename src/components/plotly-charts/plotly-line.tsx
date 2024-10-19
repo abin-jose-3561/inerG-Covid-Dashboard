@@ -20,7 +20,7 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
           y: totalCases,
           type: "scatter",
           mode: "lines+markers",
-          marker: { color: "#87CEEB" },
+          marker: { color: "#4682B4" },
           name: "Total Cases",
         },
         {
@@ -28,7 +28,7 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
           y: activeCases,
           type: "scatter",
           mode: "lines+markers",
-          marker: { color: "#2E8B57" },
+          marker: { color: "#b23900" },
           name: "Active Cases",
         },
         {
@@ -36,14 +36,14 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
           y: recovered,
           type: "scatter",
           mode: "lines+markers",
-          marker: { color: "#4682B4" },
+          marker: { color: "#228B22" },
           name: "Recovered Cases",
         },
         {
           x: dates,
           y: deaths,
           mode: "lines+markers",
-          marker: { color: "#3CB371" },
+          marker: { color: "#003366" },
           name: "Deaths",
         },
       ]}

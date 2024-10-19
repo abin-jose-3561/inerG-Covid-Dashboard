@@ -44,10 +44,12 @@ const Dashboard = () => {
               value={covidPatientStats?.data.summary.deaths ?? 0}
             />
 
-            <Button
-              label="Click to view State-wise analysis"
-              onClick={handleButtonClick}
-            />
+            {covidPatientStats && (
+              <Button
+                label="Click to view State-wise analysis"
+                onClick={handleButtonClick}
+              />
+            )}
           </div>
         </div>
       ) : (

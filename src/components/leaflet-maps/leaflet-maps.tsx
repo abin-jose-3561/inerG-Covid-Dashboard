@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { mapTiler } from "../../shared/utils/leaflet-maptiler";
 import L from "leaflet";
@@ -10,7 +9,7 @@ const LeafletMaps = () => {
   const regionalData = useSelector(
     (state: RootState) => state.covid.covidPatientStats?.data.regional
   );
-  const [center, setCenter] = useState({ lat: 20.5937, lng: 78.969 });
+  const center = { lat: 20.5937, lng: 78.969 };
   const zoomLevel = 5;
 
   const markerIcon = new L.Icon({
