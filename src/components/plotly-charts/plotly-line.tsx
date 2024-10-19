@@ -48,11 +48,20 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
         },
       ]}
       layout={{
-        title: "COVID-19 Statistics",
-        xaxis: { title: "Date", showgrid: false, zeroline: false },
-        yaxis: { title: "Number of Cases" },
+        title: "COVID-19 Statistics from Oct 10 - Oct 14",
+        xaxis: {
+          title: "Date",
+          showgrid: false,
+          zeroline: false,
+          tickformat: "%b %d, %Y",
+          dtick: "D1",
+        },
+        yaxis: {
+          title: "Number of Cases",
+          automargin: true,
+        },
         height: 400,
-        width: 900,
+        width: 1000,
         margin: { t: 40, b: 40, l: 40, r: 40 },
       }}
     />

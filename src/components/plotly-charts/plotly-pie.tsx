@@ -5,19 +5,24 @@ interface IPlotlyPieProps {
 }
 const PlotlyPie = (props: IPlotlyPieProps) => {
   const { data } = props;
+  const colors = ["#87CEEB", "#3CB371", "#4682B4"];
+  const data1 = [data.deaths, data.recovered, data.activeCases];
   return (
     <div>
       <Plot
         data={[
           {
-            values: [data.activeCases, data.recovered, data.deaths],
-            labels: ["Active Cases", "Recovered", "Death"],
+            values: data1,
+            labels: ["Death", "Recovered", "Active Cases"],
             type: "pie",
+            marker: {
+              colors: colors, // Assign custom colors here
+            },
           },
         ]}
         layout={{
-          title: "COVID-19 Statistics",
-          height: 300,
+          title: "Covid-19 Case Distribution",
+          height: 500,
           width: 500,
           margin: { t: 40, b: 40, l: 40, r: 40 },
         }}

@@ -18,7 +18,7 @@ const StatwiseAnalysis = () => {
 
   return (
     <div className="w-full">
-      <div className="card flex justify-content-between align-items-center pb-2">
+      <div className="card flex justify-content-between align-items-center pl-5 pb-2">
         <Dropdown
           value={selectedState}
           onChange={(e) => setSelectedCity(e.value)}
@@ -34,7 +34,7 @@ const StatwiseAnalysis = () => {
           <div className="flex justify-content-between">
             <div className=" w-7 flex flex-column gap-6">
               <PlotlyLine data={selectedState} />
-              <div className="flex justify-content-between">
+              <div className="flex justify-content-around">
                 <SummaryCard
                   title={"Total Cases Reported"}
                   value={selectedState.totalCases}
