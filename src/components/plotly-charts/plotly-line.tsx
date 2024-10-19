@@ -7,15 +7,10 @@ interface IPlotlyLineProps {
 const PlotlyLine = (props: IPlotlyLineProps) => {
   const { data } = props;
   const dates = data.datewiseCases.map((item) => item.date);
-  const totalCases = data.datewiseCases.map(
-    (item) => item.confirmedCasesIndian + item.deaths + item.discharged
-  );
-  const activeCases = data.datewiseCases.map(
-    (item) => item.confirmedCasesIndian
-  );
-  const recovered = data.datewiseCases.map((item) => item.discharged);
+  const totalCases = data.datewiseCases.map((item) => item.totalCases);
+  const activeCases = data.datewiseCases.map((item) => item.activeCases);
+  const recovered = data.datewiseCases.map((item) => item.recovered);
   const deaths = data.datewiseCases.map((item) => item.deaths);
-  console.log(data.datewiseCases, dates);
 
   return (
     <Plot
@@ -25,7 +20,7 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
           y: totalCases,
           type: "scatter",
           mode: "lines+markers",
-          marker: { color: "red" },
+          marker: { color: "#87CEEB" },
           name: "Total Cases",
         },
         {
@@ -33,7 +28,7 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
           y: activeCases,
           type: "scatter",
           mode: "lines+markers",
-          marker: { color: "green" },
+          marker: { color: "#2E8B57" },
           name: "Active Cases",
         },
         {
@@ -41,23 +36,23 @@ const PlotlyLine = (props: IPlotlyLineProps) => {
           y: recovered,
           type: "scatter",
           mode: "lines+markers",
-          marker: { color: "black" },
+          marker: { color: "#4682B4" },
           name: "Recovered Cases",
         },
         {
           x: dates,
           y: deaths,
           mode: "lines+markers",
-          marker: { color: "blue" },
+          marker: { color: "#3CB371" },
           name: "Deaths",
         },
       ]}
       layout={{
         title: "COVID-19 Statistics",
-        xaxis: { title: "Date" },
+        xaxis: { title: "Date", showgrid: false, zeroline: false },
         yaxis: { title: "Number of Cases" },
         height: 400,
-        width: 500,
+        width: 900,
         margin: { t: 40, b: 40, l: 40, r: 40 },
       }}
     />

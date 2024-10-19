@@ -6,21 +6,23 @@ interface IPlotlyPieProps {
 const PlotlyPie = (props: IPlotlyPieProps) => {
   const { data } = props;
   return (
-    <Plot
-      data={[
-        {
-          values: [data.confirmedCasesIndian, data.discharged, data.deaths],
-          labels: ["Active Cases", "Recovered", "Death"],
-          type: "pie",
-        },
-      ]}
-      layout={{
-        title: "COVID-19 Statistics",
-        height: 400,
-        width: 500,
-        margin: { t: 40, b: 40, l: 40, r: 40 },
-      }}
-    />
+    <div>
+      <Plot
+        data={[
+          {
+            values: [data.activeCases, data.recovered, data.deaths],
+            labels: ["Active Cases", "Recovered", "Death"],
+            type: "pie",
+          },
+        ]}
+        layout={{
+          title: "COVID-19 Statistics",
+          height: 300,
+          width: 500,
+          margin: { t: 40, b: 40, l: 40, r: 40 },
+        }}
+      />
+    </div>
   );
 };
 

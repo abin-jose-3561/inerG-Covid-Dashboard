@@ -1,27 +1,24 @@
 interface Summary {
-  total: number;
-  confirmedCasesIndian: number;
-  confirmedCasesForeign: number;
-  discharged: number;
+  totalCases: number;
+  activeCases: number;
+  recovered: number;
   deaths: number;
-  confirmedButLocationUnidentified: number;
 }
 
 interface IDatewiseCases {
-  date: Date;
-  confirmedCasesIndian: number;
-  confirmedCasesForeign: number;
-  discharged: number;
+  date: string;
+  activeCases: number;
+  recovered: number;
   deaths: number;
+  totalCases: number;
 }
 
 export interface Regional {
-  loc: string;
-  confirmedCasesIndian: number;
-  confirmedCasesForeign: number;
-  discharged: number;
+  location: string;
+  totalCases: number;
+  activeCases: number;
+  recovered: number;
   deaths: number;
-  totalConfirmed: number;
   coordinates: { lat: number; lng: number };
   datewiseCases: IDatewiseCases[];
 }

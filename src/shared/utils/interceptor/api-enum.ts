@@ -1,3 +1,3 @@
 export const API = {
-  covidstats: "covidpatientstats",
+  covidstats: "covidstats",
 };

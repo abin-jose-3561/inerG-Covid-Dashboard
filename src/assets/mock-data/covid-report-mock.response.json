@@ -2,1598 +2,776 @@
   "success": true,
   "data": {
     "summary": {
-      "total": 43119112,
-      "confirmedCasesIndian": 43119064,
-      "confirmedCasesForeign": 48,
-      "discharged": 42576815,
-      "deaths": 524201,
-      "confirmedButLocationUnidentified": 0
+      "totalCases": 99458264,
+      "activeCases": 56357248,
+      "recovered": 42576815,
+      "deaths": 524201
     },
     "regional": [
       {
-        "loc": "Andaman and Nicobar Islands",
-        "confirmedCasesIndian": 10039,
-        "confirmedCasesForeign": 0,
-        "discharged": 9907,
+        "location": "Andaman and Nicobar Islands",
+        "activeCases": 3,
+        "recovered": 9907,
         "deaths": 129,
-        "totalConfirmed": 10039,
-        "coordinates": { "lat": 11.6234, "lng": 92.7265 },
+        "totalCases": 10039,
+        "coordinates": { "lat": 11.7401, "lng": 92.6586 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 2402,
-            "confirmedCasesForeign": 0,
-            "discharged": 1563,
-            "deaths": 7
+            "activeCases": 1,
+            "recovered": 1979,
+            "deaths": 25,
+            "totalCases": 2005
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 2138,
-            "confirmedCasesForeign": 0,
-            "discharged": 4041,
-            "deaths": 14
+            "activeCases": 0,
+            "recovered": 2000,
+            "deaths": 26,
+            "totalCases": 2026
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 3566,
-            "confirmedCasesForeign": 0,
-            "discharged": 3630,
-            "deaths": 31
+            "activeCases": 0,
+            "recovered": 2000,
+            "deaths": 25,
+            "totalCases": 2025
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 307,
-            "confirmedCasesForeign": 0,
-            "discharged": 302,
-            "deaths": 73
+            "activeCases": 1,
+            "recovered": 1978,
+            "deaths": 24,
+            "totalCases": 2003
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 1626,
-            "confirmedCasesForeign": 0,
-            "discharged": 371,
-            "deaths": 4
+            "activeCases": 1,
+            "recovered": 1950,
+            "deaths": 29,
+            "totalCases": 1980
           }
         ]
       },
+
       {
-        "loc": "Andhra Pradesh",
-        "confirmedCasesIndian": 2319797,
-        "confirmedCasesForeign": 0,
-        "discharged": 2304995,
+        "location": "Andhra Pradesh",
+        "activeCases": 14472,
+        "recovered": 2304995,
         "deaths": 14730,
-        "totalConfirmed": 2319797,
+        "totalCases": 2319797,
         "coordinates": { "lat": 15.9129, "lng": 79.73999 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 591334,
-            "confirmedCasesForeign": 0,
-            "discharged": 6616,
-            "deaths": 4486
+            "activeCases": 591334,
+            "recovered": 6616,
+            "deaths": 4486,
+            "totalCases": 602436
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 186205,
-            "confirmedCasesForeign": 0,
-            "discharged": 710490,
-            "deaths": 940
+            "activeCases": 186205,
+            "recovered": 710490,
+            "deaths": 940,
+            "totalCases": 897635
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 597697,
-            "confirmedCasesForeign": 0,
-            "discharged": 304094,
-            "deaths": 873
+            "activeCases": 597697,
+            "recovered": 304094,
+            "deaths": 873,
+            "totalCases": 902664
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 358323,
-            "confirmedCasesForeign": 0,
-            "discharged": 491648,
-            "deaths": 1313
+            "activeCases": 358323,
+            "recovered": 491648,
+            "deaths": 1313,
+            "totalCases": 851284
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 679238,
-            "confirmedCasesForeign": 0,
-            "discharged": 796147,
-            "deaths": 1118
+            "activeCases": 679238,
+            "recovered": 796147,
+            "deaths": 1118,
+            "totalCases": 1476503
           }
         ]
       },
       {
-        "loc": "Arunachal Pradesh",
-        "confirmedCasesIndian": 64503,
-        "confirmedCasesForeign": 0,
-        "discharged": 64203,
+        "location": "Arunachal Pradesh",
+        "activeCases": 4,
+        "recovered": 64203,
         "deaths": 296,
-        "totalConfirmed": 64503,
+        "totalCases": 64503,
         "coordinates": { "lat": 28.218, "lng": 94.7278 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 38262,
-            "confirmedCasesForeign": 0,
-            "discharged": 1587,
-            "deaths": 160
+            "activeCases": 38262,
+            "recovered": 1587,
+            "deaths": 160,
+            "totalCases": 40009
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 802,
-            "confirmedCasesForeign": 0,
-            "discharged": 13040,
-            "deaths": 67
+            "activeCases": 802,
+            "recovered": 13040,
+            "deaths": 67,
+            "totalCases": 13909
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 13693,
-            "confirmedCasesForeign": 0,
-            "discharged": 2000,
-            "deaths": 5
+            "activeCases": 13693,
+            "recovered": 2000,
+            "deaths": 5,
+            "totalCases": 15698
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 3300,
-            "confirmedCasesForeign": 0,
-            "discharged": 38475,
-            "deaths": 25
+            "activeCases": 3300,
+            "recovered": 38475,
+            "deaths": 25,
+            "totalCases": 41775
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 8446,
-            "confirmedCasesForeign": 0,
-            "discharged": 9101,
-            "deaths": 39
+            "activeCases": 8446,
+            "recovered": 9101,
+            "deaths": 39,
+            "totalCases": 17586
           }
         ]
       },
       {
-        "loc": "Assam",
-        "confirmedCasesIndian": 724220,
-        "confirmedCasesForeign": 0,
-        "discharged": 716232,
+        "location": "Assam",
+        "activeCases": 2,
+        "recovered": 716232,
         "deaths": 7986,
-        "totalConfirmed": 724220,
+        "totalCases": 724220,
         "coordinates": { "lat": 26.2006, "lng": 92.9376 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 227246,
-            "confirmedCasesForeign": 0,
-            "discharged": 142992,
-            "deaths": 1777
+            "activeCases": 227246,
+            "recovered": 142992,
+            "deaths": 1777,
+            "totalCases": 372015
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 59223,
-            "confirmedCasesForeign": 0,
-            "discharged": 67927,
-            "deaths": 2838
+            "activeCases": 59223,
+            "recovered": 67927,
+            "deaths": 2838,
+            "totalCases": 129988
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 273462,
-            "confirmedCasesForeign": 0,
-            "discharged": 131412,
-            "deaths": 372
+            "activeCases": 273462,
+            "recovered": 131412,
+            "deaths": 372,
+            "totalCases": 405246
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 41019,
-            "confirmedCasesForeign": 0,
-            "discharged": 271054,
-            "deaths": 2662
+            "activeCases": 41019,
+            "recovered": 271054,
+            "deaths": 2662,
+            "totalCases": 314735
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 123270,
-            "confirmedCasesForeign": 0,
-            "discharged": 102847,
-            "deaths": 337
+            "activeCases": 123270,
+            "recovered": 102847,
+            "deaths": 337,
+            "totalCases": 226454
           }
         ]
       },
       {
-        "loc": "Bihar",
-        "confirmedCasesIndian": 830653,
-        "confirmedCasesForeign": 0,
-        "discharged": 818348,
+        "location": "Bihar",
+        "activeCases": 6049,
+        "recovered": 818348,
         "deaths": 12256,
-        "totalConfirmed": 830653,
+        "totalCases": 830653,
         "coordinates": { "lat": 25.0961, "lng": 85.3131 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 127245,
-            "confirmedCasesForeign": 0,
-            "discharged": 313110,
-            "deaths": 3426
+            "activeCases": 127245,
+            "recovered": 313110,
+            "deaths": 3426,
+            "totalCases": 443781
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 315452,
-            "confirmedCasesForeign": 0,
-            "discharged": 186551,
-            "deaths": 2359
+            "activeCases": 315452,
+            "recovered": 186551,
+            "deaths": 2359,
+            "totalCases": 504362
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 83904,
-            "confirmedCasesForeign": 0,
-            "discharged": 134587,
-            "deaths": 2142
+            "activeCases": 83904,
+            "recovered": 134587,
+            "deaths": 2142,
+            "totalCases": 220633
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 139820,
-            "confirmedCasesForeign": 0,
-            "discharged": 81822,
-            "deaths": 1367
+            "activeCases": 139820,
+            "recovered": 81822,
+            "deaths": 1367,
+            "totalCases": 222009
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 144232,
-            "confirmedCasesForeign": 0,
-            "discharged": 102278,
-            "deaths": 2962
+            "activeCases": 144232,
+            "recovered": 102278,
+            "deaths": 2962,
+            "totalCases": 249472
           }
         ]
       },
+
       {
-        "loc": "Chandigarh",
-        "confirmedCasesIndian": 92208,
-        "confirmedCasesForeign": 0,
+        "location": "Chandigarh",
+        "totalCases": 92208,
+        "activeCases": 1084,
         "discharged": 90959,
         "deaths": 1165,
-        "totalConfirmed": 92208,
         "coordinates": { "lat": 30.7333, "lng": 76.7794 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 32202,
-            "confirmedCasesForeign": 0,
+            "totalCases": 32202,
+            "activeCases": 11113,
             "discharged": 20819,
             "deaths": 270
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 28240,
-            "confirmedCasesForeign": 0,
+            "totalCases": 28240,
+            "activeCases": 6915,
             "discharged": 21083,
             "deaths": 242
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 12026,
-            "confirmedCasesForeign": 0,
+            "totalCases": 12026,
+            "activeCases": 673,
             "discharged": 24295,
             "deaths": 154
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 9407,
-            "confirmedCasesForeign": 0,
+            "totalCases": 9407,
+            "activeCases": 1182,
             "discharged": 10957,
             "deaths": 268
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 10333,
-            "confirmedCasesForeign": 0,
+            "totalCases": 10333,
+            "activeCases": 1297,
             "discharged": 10805,
             "deaths": 231
           }
         ]
       },
       {
-        "loc": "Chhattisgarh",
-        "confirmedCasesIndian": 1152333,
-        "confirmedCasesForeign": 0,
-        "discharged": 1138271,
-        "deaths": 14034,
-        "totalConfirmed": 1152333,
-        "coordinates": { "lat": 21.2787, "lng": 81.8661 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 487216,
-            "confirmedCasesForeign": 0,
-            "discharged": 314728,
-            "deaths": 2453
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 128216,
-            "confirmedCasesForeign": 0,
-            "discharged": 253660,
-            "deaths": 3217
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 229585,
-            "confirmedCasesForeign": 0,
-            "discharged": 217558,
-            "deaths": 2761
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 152010,
-            "confirmedCasesForeign": 0,
-            "discharged": 185245,
-            "deaths": 2342
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 160306,
-            "confirmedCasesForeign": 0,
-            "discharged": 166080,
-            "deaths": 3261
-          }
-        ]
-      },
-      {
-        "loc": "Dadra and Nagar Haveli and Daman and Diu",
-        "confirmedCasesIndian": 11441,
-        "confirmedCasesForeign": 0,
-        "discharged": 11437,
-        "deaths": 4,
-        "totalConfirmed": 11441,
-        "coordinates": { "lat": 20.3974, "lng": 72.8328 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 1424,
-            "confirmedCasesForeign": 0,
-            "discharged": 5224,
-            "deaths": 1
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 4029,
-            "confirmedCasesForeign": 0,
-            "discharged": 2354,
-            "deaths": 1
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 1383,
-            "confirmedCasesForeign": 0,
-            "discharged": 2012,
-            "deaths": 1
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 2313,
-            "confirmedCasesForeign": 0,
-            "discharged": 803,
-            "deaths": 0
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 2292,
-            "confirmedCasesForeign": 0,
-            "discharged": 1044,
-            "deaths": 1
-          }
-        ]
-      },
-      {
-        "loc": "Delhi",
-        "confirmedCasesIndian": 1899071,
-        "confirmedCasesForeign": 1,
-        "discharged": 1868543,
-        "deaths": 26188,
-        "totalConfirmed": 1899072,
-        "coordinates": { "lat": 28.7041, "lng": 77.1025 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 328490,
-            "confirmedCasesForeign": 0,
-            "discharged": 323015,
-            "deaths": 5322
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 589604,
-            "confirmedCasesForeign": 1,
-            "discharged": 412551,
-            "deaths": 10168
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 306317,
-            "confirmedCasesForeign": 0,
-            "discharged": 263832,
-            "deaths": 2616
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 392206,
-            "confirmedCasesForeign": 0,
-            "discharged": 449568,
-            "deaths": 4209
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 282454,
-            "confirmedCasesForeign": 0,
-            "discharged": 417577,
-            "deaths": 5873
-          }
-        ]
-      },
-      {
-        "loc": "Goa",
-        "confirmedCasesIndian": 245547,
-        "confirmedCasesForeign": 1,
-        "discharged": 241649,
-        "deaths": 3832,
-        "totalConfirmed": 245548,
-        "coordinates": { "lat": 15.2993, "lng": 74.124 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 52345,
-            "confirmedCasesForeign": 1,
-            "discharged": 31729,
-            "deaths": 846
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 62091,
-            "confirmedCasesForeign": 0,
-            "discharged": 50011,
-            "deaths": 856
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 34429,
-            "confirmedCasesForeign": 0,
-            "discharged": 58264,
-            "deaths": 668
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 47320,
-            "confirmedCasesForeign": 0,
-            "discharged": 48457,
-            "deaths": 854
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 39565,
-            "confirmedCasesForeign": 0,
-            "discharged": 52868,
-            "deaths": 608
-          }
-        ]
-      },
-      {
-        "loc": "Gujarat",
-        "confirmedCasesIndian": 1224656,
-        "confirmedCasesForeign": 1,
-        "discharged": 1213502,
-        "deaths": 10944,
-        "totalConfirmed": 1224657,
-        "coordinates": { "lat": 22.2587, "lng": 71.1924 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 248195,
-            "confirmedCasesForeign": 0,
-            "discharged": 377285,
-            "deaths": 2011
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 305602,
-            "confirmedCasesForeign": 0,
-            "discharged": 221631,
-            "deaths": 1895
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 184204,
-            "confirmedCasesForeign": 0,
-            "discharged": 179674,
-            "deaths": 2207
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 236588,
-            "confirmedCasesForeign": 1,
-            "discharged": 217591,
-            "deaths": 1531
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 250067,
-            "confirmedCasesForeign": 0,
-            "discharged": 221321,
-            "deaths": 3300
-          }
-        ]
-      },
-      {
-        "loc": "Haryana",
-        "confirmedCasesIndian": 998538,
-        "confirmedCasesForeign": 14,
-        "discharged": 985996,
-        "deaths": 10621,
-        "totalConfirmed": 998552,
-        "coordinates": { "lat": 29.0588, "lng": 76.0856 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 120235,
-            "confirmedCasesForeign": 1,
-            "discharged": 420329,
-            "deaths": 2525
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 251046,
-            "confirmedCasesForeign": 2,
-            "discharged": 195138,
-            "deaths": 2001
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 131533,
-            "confirmedCasesForeign": 3,
-            "discharged": 176129,
-            "deaths": 1940
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 249122,
-            "confirmedCasesForeign": 4,
-            "discharged": 112057,
-            "deaths": 1315
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 246602,
-            "confirmedCasesForeign": 4,
-            "discharged": 82343,
-            "deaths": 2840
-          }
-        ]
-      },
-      {
-        "loc": "Himachal Pradesh",
-        "confirmedCasesIndian": 284926,
-        "confirmedCasesForeign": 0,
-        "discharged": 280721,
-        "deaths": 4136,
-        "totalConfirmed": 284926,
-        "coordinates": { "lat": 31.1048, "lng": 77.1734 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 58301,
-            "confirmedCasesForeign": 0,
-            "discharged": 87721,
-            "deaths": 864
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 52283,
-            "confirmedCasesForeign": 0,
-            "discharged": 65574,
-            "deaths": 907
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 71384,
-            "confirmedCasesForeign": 0,
-            "discharged": 41930,
-            "deaths": 782
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 33602,
-            "confirmedCasesForeign": 0,
-            "discharged": 33823,
-            "deaths": 817
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 68570,
-            "confirmedCasesForeign": 0,
-            "discharged": 52068,
-            "deaths": 766
-          }
-        ]
-      },
-      {
-        "loc": "Jammu and Kashmir",
-        "confirmedCasesIndian": 454131,
-        "confirmedCasesForeign": 0,
-        "discharged": 449325,
-        "deaths": 4751,
-        "totalConfirmed": 454131,
-        "coordinates": { "lat": 33.7782, "lng": 76.5762 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 160978,
-            "confirmedCasesForeign": 0,
-            "discharged": 162184,
-            "deaths": 946
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 73169,
-            "confirmedCasesForeign": 0,
-            "discharged": 104893,
-            "deaths": 732
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 85409,
-            "confirmedCasesForeign": 0,
-            "discharged": 55623,
-            "deaths": 967
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 65235,
-            "confirmedCasesForeign": 0,
-            "discharged": 53895,
-            "deaths": 1043
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 79340,
-            "confirmedCasesForeign": 0,
-            "discharged": 72811,
-            "deaths": 1063
-          }
-        ]
-      },
-      {
-        "loc": "Jharkhand",
-        "confirmedCasesIndian": 435289,
-        "confirmedCasesForeign": 0,
-        "discharged": 429933,
-        "deaths": 5318,
-        "totalConfirmed": 435289,
-        "coordinates": { "lat": 23.6102, "lng": 85.2799 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 138963,
-            "confirmedCasesForeign": 0,
-            "discharged": 186671,
-            "deaths": 1230
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 122312,
-            "confirmedCasesForeign": 0,
-            "discharged": 92706,
-            "deaths": 1037
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 71845,
-            "confirmedCasesForeign": 0,
-            "discharged": 68461,
-            "deaths": 980
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 50423,
-            "confirmedCasesForeign": 0,
-            "discharged": 42949,
-            "deaths": 964
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 51976,
-            "confirmedCasesForeign": 0,
-            "discharged": 39083,
-            "deaths": 1107
-          }
-        ]
-      },
-      {
-        "loc": "Karnataka",
-        "confirmedCasesIndian": 3949446,
-        "confirmedCasesForeign": 0,
-        "discharged": 3907480,
-        "deaths": 40105,
-        "totalConfirmed": 3949446,
-        "coordinates": { "lat": 15.3173, "lng": 75.7139 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 1458014,
-            "confirmedCasesForeign": 0,
-            "discharged": 1416728,
-            "deaths": 13088
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 887509,
-            "confirmedCasesForeign": 0,
-            "discharged": 692347,
-            "deaths": 8709
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 746484,
-            "confirmedCasesForeign": 0,
-            "discharged": 726484,
-            "deaths": 6120
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 421736,
-            "confirmedCasesForeign": 0,
-            "discharged": 456352,
-            "deaths": 5423
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 334703,
-            "confirmedCasesForeign": 0,
-            "discharged": 615569,
-            "deaths": 5765
-          }
-        ]
-      },
-      {
-        "loc": "Kerala",
-        "confirmedCasesIndian": 6546235,
-        "confirmedCasesForeign": 0,
-        "discharged": 6473557,
+        "location": "Kerala",
+        "activeCases": 12323,
+        "recovered": 6473557,
         "deaths": 69355,
-        "totalConfirmed": 6546235,
+        "totalCases": 6546235,
         "coordinates": { "lat": 10.8505, "lng": 76.2711 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 1767589,
-            "confirmedCasesForeign": 0,
-            "discharged": 1754587,
-            "deaths": 14795
+            "activeCases": 2500,
+            "recovered": 1300000,
+            "deaths": 13871,
+            "totalCases": 1316371
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 1123412,
-            "confirmedCasesForeign": 0,
-            "discharged": 1104023,
-            "deaths": 13971
+            "activeCases": 2600,
+            "recovered": 1280000,
+            "deaths": 13500,
+            "totalCases": 1296100
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 1304578,
-            "confirmedCasesForeign": 0,
-            "discharged": 1298397,
-            "deaths": 14111
+            "activeCases": 2500,
+            "recovered": 1300000,
+            "deaths": 14000,
+            "totalCases": 1316500
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 1196523,
-            "confirmedCasesForeign": 0,
-            "discharged": 1169520,
-            "deaths": 13494
+            "activeCases": 2400,
+            "recovered": 1290000,
+            "deaths": 14000,
+            "totalCases": 1306400
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 1153133,
-            "confirmedCasesForeign": 0,
-            "discharged": 1147030,
-            "deaths": 12984
+            "activeCases": 2323,
+            "recovered": 1300000,
+            "deaths": 13984,
+            "totalCases": 1316307
           }
         ]
       },
       {
-        "loc": "Ladakh",
-        "confirmedCasesIndian": 28256,
-        "confirmedCasesForeign": 0,
-        "discharged": 28019,
+        "location": "Ladakh",
+        "activeCases": 9,
+        "recovered": 28019,
         "deaths": 228,
-        "totalConfirmed": 28256,
-        "coordinates": { "lat": 34.2268, "lng": 77.5619 },
+        "totalCases": 28256,
+        "coordinates": { "lat": 34.1526, "lng": 77.5771 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 5673,
-            "confirmedCasesForeign": 0,
-            "discharged": 5638,
-            "deaths": 47
+            "activeCases": 1,
+            "recovered": 5000,
+            "deaths": 48,
+            "totalCases": 5049
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 5391,
-            "confirmedCasesForeign": 0,
-            "discharged": 5329,
-            "deaths": 43
+            "activeCases": 2,
+            "recovered": 5500,
+            "deaths": 50,
+            "totalCases": 5552
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 5662,
-            "confirmedCasesForeign": 0,
-            "discharged": 5609,
-            "deaths": 45
+            "activeCases": 1,
+            "recovered": 6000,
+            "deaths": 55,
+            "totalCases": 6056
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 5832,
-            "confirmedCasesForeign": 0,
-            "discharged": 5770,
-            "deaths": 47
+            "activeCases": 2,
+            "recovered": 6500,
+            "deaths": 55,
+            "totalCases": 6557
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 5698,
-            "confirmedCasesForeign": 0,
-            "discharged": 5673,
-            "deaths": 46
+            "activeCases": 3,
+            "recovered": 7019,
+            "deaths": 20,
+            "totalCases": 7042
           }
         ]
       },
       {
-        "loc": "Lakshadweep",
-        "confirmedCasesIndian": 11402,
-        "confirmedCasesForeign": 0,
-        "discharged": 11350,
+        "location": "Ladakh",
+        "activeCases": 9,
+        "recovered": 28019,
+        "deaths": 228,
+        "totalCases": 28256,
+        "coordinates": { "lat": 34.1526, "lng": 77.5771 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 1,
+            "recovered": 5000,
+            "deaths": 48,
+            "totalCases": 5049
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 2,
+            "recovered": 5500,
+            "deaths": 50,
+            "totalCases": 5552
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 1,
+            "recovered": 6000,
+            "deaths": 55,
+            "totalCases": 6056
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 2,
+            "recovered": 6500,
+            "deaths": 55,
+            "totalCases": 6557
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 3,
+            "recovered": 7019,
+            "deaths": 20,
+            "totalCases": 7042
+          }
+        ]
+      },
+      {
+        "location": "Lakshadweep",
+        "activeCases": 0,
+        "recovered": 11350,
         "deaths": 52,
-        "totalConfirmed": 11402,
+        "totalCases": 11402,
         "coordinates": { "lat": 10.328, "lng": 72.7846 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 2317,
-            "confirmedCasesForeign": 0,
-            "discharged": 2290,
-            "deaths": 11
+            "activeCases": 0,
+            "recovered": 2300,
+            "deaths": 10,
+            "totalCases": 2310
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 2224,
-            "confirmedCasesForeign": 0,
-            "discharged": 2201,
-            "deaths": 10
+            "activeCases": 0,
+            "recovered": 2500,
+            "deaths": 9,
+            "totalCases": 2509
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 2356,
-            "confirmedCasesForeign": 0,
-            "discharged": 2328,
-            "deaths": 10
+            "activeCases": 0,
+            "recovered": 2600,
+            "deaths": 10,
+            "totalCases": 2610
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 2264,
-            "confirmedCasesForeign": 0,
-            "discharged": 2235,
-            "deaths": 11
+            "activeCases": 0,
+            "recovered": 2000,
+            "deaths": 13,
+            "totalCases": 2013
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 2241,
-            "confirmedCasesForeign": 0,
-            "discharged": 2296,
-            "deaths": 10
+            "activeCases": 0,
+            "recovered": 1950,
+            "deaths": 10,
+            "totalCases": 1960
           }
         ]
       },
       {
-        "loc": "Madhya Pradesh",
-        "confirmedCasesIndian": 1041867,
-        "confirmedCasesForeign": 0,
-        "discharged": 1030900,
+        "location": "Madhya Pradesh",
+        "activeCases": 2444,
+        "recovered": 1030900,
         "deaths": 10735,
-        "totalConfirmed": 1041867,
+        "totalCases": 1041867,
         "coordinates": { "lat": 22.9734, "lng": 78.6569 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 239015,
-            "confirmedCasesForeign": 0,
-            "discharged": 235178,
-            "deaths": 2715
+            "activeCases": 500,
+            "recovered": 200000,
+            "deaths": 3000,
+            "totalCases": 203500
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 211984,
-            "confirmedCasesForeign": 0,
-            "discharged": 209579,
-            "deaths": 2154
+            "activeCases": 500,
+            "recovered": 205000,
+            "deaths": 2500,
+            "totalCases": 208000
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 209037,
-            "confirmedCasesForeign": 0,
-            "discharged": 206378,
-            "deaths": 2220
+            "activeCases": 600,
+            "recovered": 210000,
+            "deaths": 2000,
+            "totalCases": 212600
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 202431,
-            "confirmedCasesForeign": 0,
-            "discharged": 201205,
-            "deaths": 2107
+            "activeCases": 400,
+            "recovered": 207900,
+            "deaths": 1700,
+            "totalCases": 210000
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 180400,
-            "confirmedCasesForeign": 0,
-            "discharged": 179560,
-            "deaths": 1539
+            "activeCases": 444,
+            "recovered": 205000,
+            "deaths": 1535,
+            "totalCases": 206979
           }
         ]
       },
       {
-        "loc": "Maharashtra",
-        "confirmedCasesIndian": 7880334,
-        "confirmedCasesForeign": 3,
-        "discharged": 7731029,
-        "deaths": 147853,
-        "totalConfirmed": 7880337,
+        "location": "Maharashtra",
+        "activeCases": 27618,
+        "recovered": 8142114,
+        "deaths": 148471,
+        "totalCases": 8310203,
         "coordinates": { "lat": 19.7515, "lng": 75.7139 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 1767056,
-            "confirmedCasesForeign": 1,
-            "discharged": 1746781,
-            "deaths": 32821
+            "activeCases": 6000,
+            "recovered": 1500000,
+            "deaths": 29000,
+            "totalCases": 1539000
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 1647201,
-            "confirmedCasesForeign": 1,
-            "discharged": 1618995,
-            "deaths": 29584
+            "activeCases": 5500,
+            "recovered": 1550000,
+            "deaths": 30000,
+            "totalCases": 1585500
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 1487537,
-            "confirmedCasesForeign": 0,
-            "discharged": 1465568,
-            "deaths": 28822
+            "activeCases": 5800,
+            "recovered": 1620000,
+            "deaths": 32000,
+            "totalCases": 1655800
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 1538510,
-            "confirmedCasesForeign": 1,
-            "discharged": 1506563,
-            "deaths": 30394
+            "activeCases": 5300,
+            "recovered": 1680000,
+            "deaths": 29000,
+            "totalCases": 1708300
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 1446030,
-            "confirmedCasesForeign": 0,
-            "discharged": 1399122,
-            "deaths": 26432
+            "activeCases": 5018,
+            "recovered": 1700000,
+            "deaths": 28471,
+            "totalCases": 1730518
           }
         ]
       },
       {
-        "loc": "Manipur",
-        "confirmedCasesIndian": 137230,
-        "confirmedCasesForeign": 0,
-        "discharged": 135102,
-        "deaths": 2120,
-        "totalConfirmed": 137230,
+        "location": "Manipur",
+        "activeCases": 14,
+        "recovered": 139813,
+        "deaths": 2149,
+        "totalCases": 141976,
         "coordinates": { "lat": 24.6637, "lng": 93.9063 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 27452,
-            "confirmedCasesForeign": 0,
-            "discharged": 27042,
-            "deaths": 442
+            "activeCases": 3,
+            "recovered": 28000,
+            "deaths": 450,
+            "totalCases": 28453
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 27350,
-            "confirmedCasesForeign": 0,
-            "discharged": 27026,
-            "deaths": 430
+            "activeCases": 4,
+            "recovered": 29000,
+            "deaths": 430,
+            "totalCases": 29434
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 28421,
-            "confirmedCasesForeign": 0,
-            "discharged": 27921,
-            "deaths": 417
+            "activeCases": 2,
+            "recovered": 30000,
+            "deaths": 420,
+            "totalCases": 30422
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 27894,
-            "confirmedCasesForeign": 0,
-            "discharged": 27531,
-            "deaths": 431
+            "activeCases": 3,
+            "recovered": 26000,
+            "deaths": 430,
+            "totalCases": 26433
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 26855,
-            "confirmedCasesForeign": 0,
-            "discharged": 26682,
-            "deaths": 400
+            "activeCases": 2,
+            "recovered": 25713,
+            "deaths": 419,
+            "totalCases": 26134
           }
         ]
       },
       {
-        "loc": "Meghalaya",
-        "confirmedCasesIndian": 93819,
-        "confirmedCasesForeign": 0,
-        "discharged": 92213,
-        "deaths": 1593,
-        "totalConfirmed": 93819,
+        "location": "Meghalaya",
+        "activeCases": 10,
+        "recovered": 95373,
+        "deaths": 1625,
+        "totalCases": 96998,
         "coordinates": { "lat": 25.467, "lng": 91.3662 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 18763,
-            "discharged": 18538,
-            "deaths": 318
+            "activeCases": 2,
+            "recovered": 20000,
+            "deaths": 400,
+            "totalCases": 20402
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 18429,
-            "discharged": 18104,
-            "deaths": 330
+            "activeCases": 3,
+            "recovered": 19000,
+            "deaths": 410,
+            "totalCases": 19413
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 18297,
-            "discharged": 17903,
-            "deaths": 307
+            "activeCases": 2,
+            "recovered": 21000,
+            "deaths": 405,
+            "totalCases": 21407
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 18791,
-            "discharged": 18471,
-            "deaths": 329
+            "activeCases": 1,
+            "recovered": 19500,
+            "deaths": 410,
+            "totalCases": 19911
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 19539,
-            "discharged": 19197,
-            "deaths": 309
+            "activeCases": 2,
+            "recovered": 15873,
+            "deaths": 400,
+            "totalCases": 16275
           }
         ]
       },
       {
-        "loc": "Mizoram",
-        "confirmedCasesIndian": 227962,
-        "confirmedCasesForeign": 0,
-        "discharged": 227005,
-        "deaths": 697,
-        "totalConfirmed": 227962,
+        "location": "Mizoram",
+        "activeCases": 0,
+        "recovered": 23711,
+        "deaths": 191,
+        "totalCases": 23902,
         "coordinates": { "lat": 23.1645, "lng": 92.9376 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 46857,
-            "discharged": 46589,
-            "deaths": 142
+            "activeCases": 0,
+            "recovered": 4000,
+            "deaths": 45,
+            "totalCases": 4045
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 46123,
-            "discharged": 45870,
-            "deaths": 141
+            "activeCases": 0,
+            "recovered": 5000,
+            "deaths": 40,
+            "totalCases": 5040
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 45357,
-            "discharged": 45032,
-            "deaths": 139
+            "activeCases": 0,
+            "recovered": 5500,
+            "deaths": 42,
+            "totalCases": 5542
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 45178,
-            "discharged": 44850,
-            "deaths": 137
+            "activeCases": 0,
+            "recovered": 4500,
+            "deaths": 34,
+            "totalCases": 4534
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 44387,
-            "discharged": 43664,
-            "deaths": 138
+            "activeCases": 0,
+            "recovered": 4711,
+            "deaths": 30,
+            "totalCases": 4741
           }
         ]
       },
       {
-        "loc": "Nagaland",
-        "confirmedCasesIndian": 35492,
-        "confirmedCasesForeign": 0,
-        "discharged": 34731,
-        "deaths": 760,
-        "totalConfirmed": 35492,
+        "location": "Nagaland",
+        "activeCases": 1,
+        "recovered": 35180,
+        "deaths": 782,
+        "totalCases": 35963,
         "coordinates": { "lat": 26.1584, "lng": 94.5624 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 7093,
-            "discharged": 6932,
-            "deaths": 152
+            "activeCases": 0,
+            "recovered": 7000,
+            "deaths": 150,
+            "totalCases": 7150
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 7138,
-            "discharged": 6993,
-            "deaths": 153
+            "activeCases": 1,
+            "recovered": 7500,
+            "deaths": 148,
+            "totalCases": 7649
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 6841,
-            "discharged": 6771,
-            "deaths": 145
+            "activeCases": 0,
+            "recovered": 8000,
+            "deaths": 152,
+            "totalCases": 8152
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 7079,
-            "discharged": 6944,
-            "deaths": 149
+            "activeCases": 0,
+            "recovered": 6200,
+            "deaths": 150,
+            "totalCases": 6350
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 7341,
-            "discharged": 7091,
-            "deaths": 161
+            "activeCases": 0,
+            "recovered": 5480,
+            "deaths": 182,
+            "totalCases": 5662
           }
         ]
       },
       {
-        "loc": "Odisha",
-        "confirmedCasesIndian": 1288272,
-        "confirmedCasesForeign": 0,
-        "discharged": 1278980,
-        "deaths": 9126,
-        "totalConfirmed": 1288272,
+        "location": "Odisha",
+        "activeCases": 367,
+        "recovered": 1326684,
+        "deaths": 9260,
+        "totalCases": 1336311,
         "coordinates": { "lat": 20.9517, "lng": 85.0985 },
         "datewiseCases": [
           {
             "date": "2020-10-10",
-            "confirmedCasesIndian": 257838,
-            "discharged": 254890,
-            "deaths": 1869
+            "activeCases": 50,
+            "recovered": 300000,
+            "deaths": 700,
+            "totalCases": 300750
           },
           {
             "date": "2020-10-11",
-            "confirmedCasesIndian": 254300,
-            "discharged": 251680,
-            "deaths": 1830
+            "activeCases": 60,
+            "recovered": 310000,
+            "deaths": 800,
+            "totalCases": 310860
           },
           {
             "date": "2020-10-12",
-            "confirmedCasesIndian": 260127,
-            "discharged": 256951,
-            "deaths": 1824
+            "activeCases": 55,
+            "recovered": 315000,
+            "deaths": 850,
+            "totalCases": 315905
           },
           {
             "date": "2020-10-13",
-            "confirmedCasesIndian": 255908,
-            "discharged": 254168,
-            "deaths": 1855
+            "activeCases": 70,
+            "recovered": 320000,
+            "deaths": 900,
+            "totalCases": 320970
           },
           {
             "date": "2020-10-14",
-            "confirmedCasesIndian": 261099,
-            "discharged": 259291,
-            "deaths": 1748
-          }
-        ]
-      },
-      {
-        "loc": "Puducherry",
-        "confirmedCasesIndian": 165806,
-        "confirmedCasesForeign": 0,
-        "discharged": 163832,
-        "deaths": 1962,
-        "totalConfirmed": 165806,
-        "coordinates": { "lat": 11.9416, "lng": 79.8083 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 33123,
-            "discharged": 32738,
-            "deaths": 379
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 33578,
-            "discharged": 33246,
-            "deaths": 384
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 32691,
-            "discharged": 32357,
-            "deaths": 390
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 33047,
-            "discharged": 32856,
-            "deaths": 393
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 33467,
-            "discharged": 32635,
-            "deaths": 416
-          }
-        ]
-      },
-      {
-        "loc": "Punjab",
-        "confirmedCasesIndian": 760028,
-        "confirmedCasesForeign": 0,
-        "discharged": 742107,
-        "deaths": 17751,
-        "totalConfirmed": 760028,
-        "coordinates": { "lat": 31.1471, "lng": 75.3412 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 152234,
-            "discharged": 148421,
-            "deaths": 3614
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 151108,
-            "discharged": 148574,
-            "deaths": 3543
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 148490,
-            "discharged": 145832,
-            "deaths": 3531
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 149113,
-            "discharged": 146050,
-            "deaths": 3615
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 159083,
-            "discharged": 153230,
-            "deaths": 3448
-          }
-        ]
-      },
-      {
-        "loc": "Rajasthan",
-        "confirmedCasesIndian": 1284616,
-        "confirmedCasesForeign": 2,
-        "discharged": 1274448,
-        "deaths": 9554,
-        "totalConfirmed": 1284618,
-        "coordinates": { "lat": 27.0238, "lng": 74.2179 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 254792,
-            "discharged": 252189,
-            "deaths": 1894
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 258634,
-            "discharged": 255319,
-            "deaths": 1846
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 254987,
-            "discharged": 251628,
-            "deaths": 1867
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 255434,
-            "discharged": 253624,
-            "deaths": 1910
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 258769,
-            "discharged": 261688,
-            "deaths": 2037
-          }
-        ]
-      },
-      {
-        "loc": "Sikkim",
-        "confirmedCasesIndian": 43993,
-        "confirmedCasesForeign": 0,
-        "discharged": 43574,
-        "deaths": 478,
-        "totalConfirmed": 43993,
-        "coordinates": { "lat": 27.533, "lng": 88.5122 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 8950,
-            "discharged": 8856,
-            "deaths": 95
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 8743,
-            "discharged": 8620,
-            "deaths": 92
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 8712,
-            "discharged": 8629,
-            "deaths": 99
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 8826,
-            "discharged": 8705,
-            "deaths": 93
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 8762,
-            "discharged": 8764,
-            "deaths": 99
-          }
-        ]
-      },
-      {
-        "loc": "Tamil Nadu",
-        "confirmedCasesIndian": 3574500,
-        "confirmedCasesForeign": 0,
-        "discharged": 3538890,
-        "deaths": 47919,
-        "totalConfirmed": 3574500,
-        "coordinates": { "lat": 11.1271, "lng": 78.6569 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 719217,
-            "discharged": 711125,
-            "deaths": 9604
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 716921,
-            "discharged": 709346,
-            "deaths": 9532
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 705481,
-            "discharged": 700127,
-            "deaths": 9628
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 721983,
-            "discharged": 711341,
-            "deaths": 9572
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 713898,
-            "discharged": 708951,
-            "deaths": 9583
-          }
-        ]
-      },
-      {
-        "loc": "Telangana",
-        "confirmedCasesIndian": 840410,
-        "confirmedCasesForeign": 0,
-        "discharged": 835468,
-        "deaths": 4111,
-        "totalConfirmed": 840410,
-        "coordinates": { "lat": 18.1124, "lng": 79.0193 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 167654,
-            "discharged": 166712,
-            "deaths": 818
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 168998,
-            "discharged": 167001,
-            "deaths": 832
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 166357,
-            "discharged": 164211,
-            "deaths": 840
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 168134,
-            "discharged": 167903,
-            "deaths": 796
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 169267,
-            "discharged": 169641,
-            "deaths": 825
-          }
-        ]
-      },
-
-      {
-        "loc": "Tripura",
-        "confirmedCasesIndian": 108078,
-        "confirmedCasesForeign": 0,
-        "discharged": 106756,
-        "deaths": 937,
-        "totalConfirmed": 108078,
-        "coordinates": { "lat": 23.9408, "lng": 91.9882 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 21611,
-            "discharged": 21368,
-            "deaths": 188
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 21510,
-            "discharged": 21401,
-            "deaths": 185
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 21534,
-            "discharged": 21422,
-            "deaths": 184
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 22123,
-            "discharged": 22010,
-            "deaths": 183
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 21300,
-            "discharged": 21555,
-            "deaths": 197
-          }
-        ]
-      },
-      {
-        "loc": "Uttar Pradesh",
-        "confirmedCasesIndian": 2143727,
-        "confirmedCasesForeign": 0,
-        "discharged": 2118176,
-        "deaths": 23608,
-        "totalConfirmed": 2143727,
-        "coordinates": { "lat": 26.8467, "lng": 80.9462 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 428745,
-            "discharged": 423210,
-            "deaths": 4719
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 429781,
-            "discharged": 424165,
-            "deaths": 4749
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 422982,
-            "discharged": 416872,
-            "deaths": 4746
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 427684,
-            "discharged": 425019,
-            "deaths": 4720
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 431535,
-            "discharged": 429910,
-            "deaths": 4674
-          }
-        ]
-      },
-      {
-        "loc": "Uttarakhand",
-        "confirmedCasesIndian": 478863,
-        "confirmedCasesForeign": 0,
-        "discharged": 471744,
-        "deaths": 7715,
-        "totalConfirmed": 478863,
-        "coordinates": { "lat": 30.0668, "lng": 79.0193 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 95533,
-            "discharged": 94268,
-            "deaths": 1564
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 94987,
-            "discharged": 94112,
-            "deaths": 1531
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 95567,
-            "discharged": 94426,
-            "deaths": 1551
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 94467,
-            "discharged": 93653,
-            "deaths": 1562
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 98309,
-            "discharged": 95285,
-            "deaths": 1507
-          }
-        ]
-      },
-      {
-        "loc": "West Bengal",
-        "confirmedCasesIndian": 2073293,
-        "confirmedCasesForeign": 0,
-        "discharged": 2039152,
-        "deaths": 21151,
-        "totalConfirmed": 2073293,
-        "coordinates": { "lat": 22.9868, "lng": 87.855 },
-        "datewiseCases": [
-          {
-            "date": "2020-10-10",
-            "confirmedCasesIndian": 419563,
-            "discharged": 412276,
-            "deaths": 4297
-          },
-          {
-            "date": "2020-10-11",
-            "confirmedCasesIndian": 418101,
-            "discharged": 411753,
-            "deaths": 4213
-          },
-          {
-            "date": "2020-10-12",
-            "confirmedCasesIndian": 414598,
-            "discharged": 410427,
-            "deaths": 4199
-          },
-          {
-            "date": "2020-10-13",
-            "confirmedCasesIndian": 419815,
-            "discharged": 414309,
-            "deaths": 4230
-          },
-          {
-            "date": "2020-10-14",
-            "confirmedCasesIndian": 409216,
-            "discharged": 394387,
-            "deaths": 4212
+            "activeCases": 132,
+            "recovered": 321684,
+            "deaths": 8010,
+            "totalCases": 330826
           }
         ]
       }

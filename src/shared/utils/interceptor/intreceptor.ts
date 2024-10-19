@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from "axios";
 
 export const axiosInstance: AxiosInstance = axios.create({
-  baseURL: `https://6cbbe959-0958-434d-b042-bc1503206f68.mock.pstmn.io/`,
+  baseURL: `https://20bb55f6-ca09-453f-9e18-4fec4ff555bb.mock.pstmn.io/`,
 });

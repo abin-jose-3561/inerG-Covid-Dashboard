@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { mapTiler } from "../../shared/utils/leaflet-maptiler";
 import L from "leaflet";
@@ -12,25 +12,7 @@ const LeafletMaps = () => {
   );
   const [center, setCenter] = useState({ lat: 20.5937, lng: 78.969 });
   const zoomLevel = 5;
-  // const mapRef = useRef();
 
-  const mockCovidMapData = [
-    {
-      loc: "Andaman and Nicobar Islands",
-      confirmedCasesIndian: 10039,
-      coords: { lat: 11.6234, lng: 92.7265 },
-    },
-    {
-      loc: "Delhi",
-      confirmedCasesIndian: 1899071,
-      coords: { lat: 28.6139, lng: 77.209 },
-    },
-    {
-      loc: "Maharashtra",
-      confirmedCasesIndian: 7880334,
-      coords: { lat: 19.3014, lng: 75.7139 },
-    },
-  ];
   const markerIcon = new L.Icon({
     iconUrl: marker,
     iconSize: [45, 45],
@@ -39,21 +21,20 @@ const LeafletMaps = () => {
     <MapContainer
       center={center}
       zoom={zoomLevel}
-      //   ref={mapRef}
-      style={{ height: "600px", width: "100%" }}
+      style={{ height: "calc(100vh - 6rem", width: "75%" }}
     >
       <TileLayer url={mapTiler.url} attribution={mapTiler.attribution} />
       {regionalData &&
         regionalData.map((location) => (
           <Marker
-            key={location.loc}
+            key={location.location}
             position={[location.coordinates.lat, location.coordinates.lng]}
             icon={markerIcon}
           >
             <Popup>
-              <strong>{location.loc}</strong>
+              <strong>{location.location}</strong>
               <br />
-              Confirmed Cases: {location.confirmedCasesIndian}
+              Confirmed Cases: {location.totalCases}
             </Popup>
           </Marker>
         ))}
