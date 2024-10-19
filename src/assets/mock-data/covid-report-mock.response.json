@@ -1,0 +1,782 @@
+{
+  "success": true,
+  "data": {
+    "summary": {
+      "totalCases": 99458264,
+      "activeCases": 56357248,
+      "recovered": 42576815,
+      "deaths": 524201
+    },
+    "regional": [
+      {
+        "location": "Andaman and Nicobar Islands",
+        "activeCases": 3,
+        "recovered": 9907,
+        "deaths": 129,
+        "totalCases": 10039,
+        "coordinates": { "lat": 11.7401, "lng": 92.6586 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 1,
+            "recovered": 1979,
+            "deaths": 25,
+            "totalCases": 2005
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 0,
+            "recovered": 2000,
+            "deaths": 26,
+            "totalCases": 2026
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 0,
+            "recovered": 2000,
+            "deaths": 25,
+            "totalCases": 2025
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 1,
+            "recovered": 1978,
+            "deaths": 24,
+            "totalCases": 2003
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 1,
+            "recovered": 1950,
+            "deaths": 29,
+            "totalCases": 1980
+          }
+        ]
+      },
+
+      {
+        "location": "Andhra Pradesh",
+        "activeCases": 14472,
+        "recovered": 2304995,
+        "deaths": 14730,
+        "totalCases": 2319797,
+        "coordinates": { "lat": 15.9129, "lng": 79.73999 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 591334,
+            "recovered": 6616,
+            "deaths": 4486,
+            "totalCases": 602436
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 186205,
+            "recovered": 710490,
+            "deaths": 940,
+            "totalCases": 897635
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 597697,
+            "recovered": 304094,
+            "deaths": 873,
+            "totalCases": 902664
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 358323,
+            "recovered": 491648,
+            "deaths": 1313,
+            "totalCases": 851284
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 679238,
+            "recovered": 796147,
+            "deaths": 1118,
+            "totalCases": 1476503
+          }
+        ]
+      },
+      {
+        "location": "Arunachal Pradesh",
+        "activeCases": 4,
+        "recovered": 64203,
+        "deaths": 296,
+        "totalCases": 64503,
+        "coordinates": { "lat": 28.218, "lng": 94.7278 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 38262,
+            "recovered": 1587,
+            "deaths": 160,
+            "totalCases": 40009
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 802,
+            "recovered": 13040,
+            "deaths": 67,
+            "totalCases": 13909
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 13693,
+            "recovered": 2000,
+            "deaths": 5,
+            "totalCases": 15698
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 3300,
+            "recovered": 38475,
+            "deaths": 25,
+            "totalCases": 41775
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 8446,
+            "recovered": 9101,
+            "deaths": 39,
+            "totalCases": 17586
+          }
+        ]
+      },
+      {
+        "location": "Assam",
+        "activeCases": 2,
+        "recovered": 716232,
+        "deaths": 7986,
+        "totalCases": 724220,
+        "coordinates": { "lat": 26.2006, "lng": 92.9376 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 227246,
+            "recovered": 142992,
+            "deaths": 1777,
+            "totalCases": 372015
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 59223,
+            "recovered": 67927,
+            "deaths": 2838,
+            "totalCases": 129988
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 273462,
+            "recovered": 131412,
+            "deaths": 372,
+            "totalCases": 405246
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 41019,
+            "recovered": 271054,
+            "deaths": 2662,
+            "totalCases": 314735
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 123270,
+            "recovered": 102847,
+            "deaths": 337,
+            "totalCases": 226454
+          }
+        ]
+      },
+      {
+        "location": "Bihar",
+        "activeCases": 6049,
+        "recovered": 818348,
+        "deaths": 12256,
+        "totalCases": 830653,
+        "coordinates": { "lat": 25.0961, "lng": 85.3131 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 127245,
+            "recovered": 313110,
+            "deaths": 3426,
+            "totalCases": 443781
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 315452,
+            "recovered": 186551,
+            "deaths": 2359,
+            "totalCases": 504362
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 83904,
+            "recovered": 134587,
+            "deaths": 2142,
+            "totalCases": 220633
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 139820,
+            "recovered": 81822,
+            "deaths": 1367,
+            "totalCases": 222009
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 144232,
+            "recovered": 102278,
+            "deaths": 2962,
+            "totalCases": 249472
+          }
+        ]
+      },
+
+      {
+        "location": "Chandigarh",
+        "totalCases": 92208,
+        "activeCases": 1084,
+        "discharged": 90959,
+        "deaths": 1165,
+        "coordinates": { "lat": 30.7333, "lng": 76.7794 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "totalCases": 32202,
+            "activeCases": 11113,
+            "discharged": 20819,
+            "deaths": 270
+          },
+          {
+            "date": "2020-10-11",
+            "totalCases": 28240,
+            "activeCases": 6915,
+            "discharged": 21083,
+            "deaths": 242
+          },
+          {
+            "date": "2020-10-12",
+            "totalCases": 12026,
+            "activeCases": 673,
+            "discharged": 24295,
+            "deaths": 154
+          },
+          {
+            "date": "2020-10-13",
+            "totalCases": 9407,
+            "activeCases": 1182,
+            "discharged": 10957,
+            "deaths": 268
+          },
+          {
+            "date": "2020-10-14",
+            "totalCases": 10333,
+            "activeCases": 1297,
+            "discharged": 10805,
+            "deaths": 231
+          }
+        ]
+      },
+      {
+        "location": "Kerala",
+        "activeCases": 12323,
+        "recovered": 6473557,
+        "deaths": 69355,
+        "totalCases": 6546235,
+        "coordinates": { "lat": 10.8505, "lng": 76.2711 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 2500,
+            "recovered": 1300000,
+            "deaths": 13871,
+            "totalCases": 1316371
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 2600,
+            "recovered": 1280000,
+            "deaths": 13500,
+            "totalCases": 1296100
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 2500,
+            "recovered": 1300000,
+            "deaths": 14000,
+            "totalCases": 1316500
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 2400,
+            "recovered": 1290000,
+            "deaths": 14000,
+            "totalCases": 1306400
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 2323,
+            "recovered": 1300000,
+            "deaths": 13984,
+            "totalCases": 1316307
+          }
+        ]
+      },
+      {
+        "location": "Ladakh",
+        "activeCases": 9,
+        "recovered": 28019,
+        "deaths": 228,
+        "totalCases": 28256,
+        "coordinates": { "lat": 34.1526, "lng": 77.5771 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 1,
+            "recovered": 5000,
+            "deaths": 48,
+            "totalCases": 5049
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 2,
+            "recovered": 5500,
+            "deaths": 50,
+            "totalCases": 5552
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 1,
+            "recovered": 6000,
+            "deaths": 55,
+            "totalCases": 6056
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 2,
+            "recovered": 6500,
+            "deaths": 55,
+            "totalCases": 6557
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 3,
+            "recovered": 7019,
+            "deaths": 20,
+            "totalCases": 7042
+          }
+        ]
+      },
+      {
+        "location": "Ladakh",
+        "activeCases": 9,
+        "recovered": 28019,
+        "deaths": 228,
+        "totalCases": 28256,
+        "coordinates": { "lat": 34.1526, "lng": 77.5771 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 1,
+            "recovered": 5000,
+            "deaths": 48,
+            "totalCases": 5049
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 2,
+            "recovered": 5500,
+            "deaths": 50,
+            "totalCases": 5552
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 1,
+            "recovered": 6000,
+            "deaths": 55,
+            "totalCases": 6056
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 2,
+            "recovered": 6500,
+            "deaths": 55,
+            "totalCases": 6557
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 3,
+            "recovered": 7019,
+            "deaths": 20,
+            "totalCases": 7042
+          }
+        ]
+      },
+      {
+        "location": "Lakshadweep",
+        "activeCases": 0,
+        "recovered": 11350,
+        "deaths": 52,
+        "totalCases": 11402,
+        "coordinates": { "lat": 10.328, "lng": 72.7846 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 0,
+            "recovered": 2300,
+            "deaths": 10,
+            "totalCases": 2310
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 0,
+            "recovered": 2500,
+            "deaths": 9,
+            "totalCases": 2509
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 0,
+            "recovered": 2600,
+            "deaths": 10,
+            "totalCases": 2610
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 0,
+            "recovered": 2000,
+            "deaths": 13,
+            "totalCases": 2013
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 0,
+            "recovered": 1950,
+            "deaths": 10,
+            "totalCases": 1960
+          }
+        ]
+      },
+      {
+        "location": "Madhya Pradesh",
+        "activeCases": 2444,
+        "recovered": 1030900,
+        "deaths": 10735,
+        "totalCases": 1041867,
+        "coordinates": { "lat": 22.9734, "lng": 78.6569 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 500,
+            "recovered": 200000,
+            "deaths": 3000,
+            "totalCases": 203500
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 500,
+            "recovered": 205000,
+            "deaths": 2500,
+            "totalCases": 208000
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 600,
+            "recovered": 210000,
+            "deaths": 2000,
+            "totalCases": 212600
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 400,
+            "recovered": 207900,
+            "deaths": 1700,
+            "totalCases": 210000
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 444,
+            "recovered": 205000,
+            "deaths": 1535,
+            "totalCases": 206979
+          }
+        ]
+      },
+      {
+        "location": "Maharashtra",
+        "activeCases": 27618,
+        "recovered": 8142114,
+        "deaths": 148471,
+        "totalCases": 8310203,
+        "coordinates": { "lat": 19.7515, "lng": 75.7139 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 6000,
+            "recovered": 1500000,
+            "deaths": 29000,
+            "totalCases": 1539000
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 5500,
+            "recovered": 1550000,
+            "deaths": 30000,
+            "totalCases": 1585500
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 5800,
+            "recovered": 1620000,
+            "deaths": 32000,
+            "totalCases": 1655800
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 5300,
+            "recovered": 1680000,
+            "deaths": 29000,
+            "totalCases": 1708300
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 5018,
+            "recovered": 1700000,
+            "deaths": 28471,
+            "totalCases": 1730518
+          }
+        ]
+      },
+      {
+        "location": "Manipur",
+        "activeCases": 14,
+        "recovered": 139813,
+        "deaths": 2149,
+        "totalCases": 141976,
+        "coordinates": { "lat": 24.6637, "lng": 93.9063 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 3,
+            "recovered": 28000,
+            "deaths": 450,
+            "totalCases": 28453
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 4,
+            "recovered": 29000,
+            "deaths": 430,
+            "totalCases": 29434
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 2,
+            "recovered": 30000,
+            "deaths": 420,
+            "totalCases": 30422
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 3,
+            "recovered": 26000,
+            "deaths": 430,
+            "totalCases": 26433
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 2,
+            "recovered": 25713,
+            "deaths": 419,
+            "totalCases": 26134
+          }
+        ]
+      },
+      {
+        "location": "Meghalaya",
+        "activeCases": 10,
+        "recovered": 95373,
+        "deaths": 1625,
+        "totalCases": 96998,
+        "coordinates": { "lat": 25.467, "lng": 91.3662 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 2,
+            "recovered": 20000,
+            "deaths": 400,
+            "totalCases": 20402
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 3,
+            "recovered": 19000,
+            "deaths": 410,
+            "totalCases": 19413
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 2,
+            "recovered": 21000,
+            "deaths": 405,
+            "totalCases": 21407
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 1,
+            "recovered": 19500,
+            "deaths": 410,
+            "totalCases": 19911
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 2,
+            "recovered": 15873,
+            "deaths": 400,
+            "totalCases": 16275
+          }
+        ]
+      },
+      {
+        "location": "Mizoram",
+        "activeCases": 0,
+        "recovered": 23711,
+        "deaths": 191,
+        "totalCases": 23902,
+        "coordinates": { "lat": 23.1645, "lng": 92.9376 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 0,
+            "recovered": 4000,
+            "deaths": 45,
+            "totalCases": 4045
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 0,
+            "recovered": 5000,
+            "deaths": 40,
+            "totalCases": 5040
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 0,
+            "recovered": 5500,
+            "deaths": 42,
+            "totalCases": 5542
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 0,
+            "recovered": 4500,
+            "deaths": 34,
+            "totalCases": 4534
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 0,
+            "recovered": 4711,
+            "deaths": 30,
+            "totalCases": 4741
+          }
+        ]
+      },
+      {
+        "location": "Nagaland",
+        "activeCases": 1,
+        "recovered": 35180,
+        "deaths": 782,
+        "totalCases": 35963,
+        "coordinates": { "lat": 26.1584, "lng": 94.5624 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 0,
+            "recovered": 7000,
+            "deaths": 150,
+            "totalCases": 7150
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 1,
+            "recovered": 7500,
+            "deaths": 148,
+            "totalCases": 7649
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 0,
+            "recovered": 8000,
+            "deaths": 152,
+            "totalCases": 8152
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 0,
+            "recovered": 6200,
+            "deaths": 150,
+            "totalCases": 6350
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 0,
+            "recovered": 5480,
+            "deaths": 182,
+            "totalCases": 5662
+          }
+        ]
+      },
+      {
+        "location": "Odisha",
+        "activeCases": 367,
+        "recovered": 1326684,
+        "deaths": 9260,
+        "totalCases": 1336311,
+        "coordinates": { "lat": 20.9517, "lng": 85.0985 },
+        "datewiseCases": [
+          {
+            "date": "2020-10-10",
+            "activeCases": 50,
+            "recovered": 300000,
+            "deaths": 700,
+            "totalCases": 300750
+          },
+          {
+            "date": "2020-10-11",
+            "activeCases": 60,
+            "recovered": 310000,
+            "deaths": 800,
+            "totalCases": 310860
+          },
+          {
+            "date": "2020-10-12",
+            "activeCases": 55,
+            "recovered": 315000,
+            "deaths": 850,
+            "totalCases": 315905
+          },
+          {
+            "date": "2020-10-13",
+            "activeCases": 70,
+            "recovered": 320000,
+            "deaths": 900,
+            "totalCases": 320970
+          },
+          {
+            "date": "2020-10-14",
+            "activeCases": 132,
+            "recovered": 321684,
+            "deaths": 8010,
+            "totalCases": 330826
+          }
+        ]
+      }
+    ]
+  },
+  "lastRefreshed": "2022-05-14T03:47:21.111Z",
+  "lastOriginUpdate": "2022-05-14T02:30:00.000Z"
+}
